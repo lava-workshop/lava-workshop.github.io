@@ -11,6 +11,7 @@ const Organizers = ()=>{
             <PersonAvatar name="Hideki Nakayama" image="/nakayama.jpg" affiliation={"University of Tokyo, Japan"} />
             <PersonAvatar name="Minh-Triet Tran" image="/tmtriet.png" affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Khan Md Anwarus Salam" image="/khan_salam.jpg" affiliation={"SoftBank, Japan"} />
+            <PersonAvatar name="Trung-Hieu Hoang" image="/hthieu.jpg" affiliation={"University of Illinois Urbana-Champaign, US"} />
          
         </div>
 

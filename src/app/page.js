@@ -44,9 +44,10 @@ export default function Home() {
           Grand Challenge
         </a>
         <a className={button} href="/archive/2024">
-          ACCV 2024
+          ACCV 2024 (Done)
         </a>
       </div>
+    <!--
       <Section title={"Workshop Sponsors"}
         body={
           <div className="flex flex-row w-full justify-center items-center ">
@@ -65,6 +66,7 @@ export default function Home() {
 
         </button>
       </div>
+          -->
     </main>
   );
 }

@@ -47,16 +47,9 @@ export default function Home() {
           ACCV 2024 (Done)
         </a>
       </div>
-      <Section title={"Workshop Sponsors"}
-        body={
-          <div className="flex flex-row w-full justify-center items-center ">
-            <div className="flex flex-col justify-center ">
-              <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
-            </div>
-          </div>
-
-        }
-        id="sponsors" />
+      <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
+      <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
+      <Section title={"Organizers"} body={<Organizers />} id="organizers" />
       <div className="fixed bottom-6 right-6">
         <button id="backToTop" className="bg-[#01305f] hover:bg-[#234880] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>
           <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">

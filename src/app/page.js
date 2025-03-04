@@ -41,13 +41,13 @@ export default function Home() {
           Home
         </a>
         <a className={button} href="/workshop">
-          LAVA 2025 (ACMMM 2025 Workshop)
+          LAVA 2025 (ACMMM 2025)
         </a>
         <a className={button} href="/grandchallenge">
-          LAVA Challenge (ACMMM 2025 Grand Challenge)
+          LAVA Challenge (ACMMM 2025)
         </a>
         <a className={button} href="/archive/2024">
-          LAVA 2024 (ACCV 2024, Done)
+          LAVA 2024 (ACCV 2024)
         </a>
       </div>
       <Section title={"Welcome!"} body={<Workshop />} id="workshop" />

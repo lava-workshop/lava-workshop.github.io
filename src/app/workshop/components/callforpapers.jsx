@@ -3,7 +3,7 @@ const CallForPapers = () => {
         <div className="text-justify">
             
             <p className="text-pretty mb-2">
-            We welcome people to submit papers about large vision-language models (LVLMs) to The Second Edition of Workshop on Large Vision – Language Model Learning and Applications (LAVA). Accepted papers will be presented in our workshop and will be published in the ACM MM 2025 workshop proceeding. <span className="font-bold">We accept short papers (non-archived) which are up to 4 pages in ACM MM format, excluding references; and long papers (archived) which are up to 8 pages in ACM MM format, excluding references.</span> Submission policies adhere to the ACM MM submission policies.
+            We welcome people to submit papers about large vision-language models (LVLMs) to The Second Workshop on Large Vision – Language Model Learning and Applications (LAVA). Accepted papers will be presented in our workshop and will be published in the ACM MM 2025 workshop proceeding. <span className="font-bold">We accept short papers (non-archived) which are up to 4 pages in ACM MM format, excluding references; and long papers (archived) which are up to 8 pages in ACM MM format, excluding references.</span> Submission policies adhere to the ACM MM submission policies.
             </p>
             
             <p>The topics in this workshop will include but are not limited to:</p>

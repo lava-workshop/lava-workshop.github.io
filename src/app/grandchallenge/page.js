@@ -53,6 +53,9 @@ export default function Home() {
       <Section title={"Workshop Sponsors"}
         body={
           <div className="flex flex-row w-full justify-center items-center ">
+          <Section title={"Call for Challenge Participants"} body={<CallForPapers />} id="callforpapers" />
+          <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
+          <Section title={"Organizers"} body={<Organizers />} id="organizers" />
             <div className="flex flex-col justify-center ">
               <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
             </div>

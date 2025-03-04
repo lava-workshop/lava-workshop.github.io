@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center   sm:px-24 px-4 ">
       <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center">
-        <a className={button} href="/">
+       <a className={button} href="/">
           Home
         </a>
         <a className={button} href="/workshop">
@@ -49,13 +49,14 @@ export default function Home() {
         <a className={button} href="/archive/2024">
           LAVA 2024 (ACCV 2024)
         </a>
+          
       </div>
+      <Section title={"Call for Challenge Participants"} body={<CallForPapers />} id="callforpapers" />
+      <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
+      <Section title={"Organizers"} body={<Organizers />} id="organizers" />
       <Section title={"Workshop Sponsors"}
         body={
           <div className="flex flex-row w-full justify-center items-center ">
-          <Section title={"Call for Challenge Participants"} body={<CallForPapers />} id="callforpapers" />
-          <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
-          <Section title={"Organizers"} body={<Organizers />} id="organizers" />
             <div className="flex flex-col justify-center ">
               <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
             </div>

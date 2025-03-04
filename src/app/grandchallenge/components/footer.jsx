@@ -15,7 +15,6 @@ const Footer = () => {
                 {/* <div className="flex flex-col justify-center">
                     <Image src="/softbank.png" alt="Soft Bank" width={200} height={200} className="sm:w-[13em] w-[6em]" />
                 </div> */}
-
             </div>
 
         </footer>

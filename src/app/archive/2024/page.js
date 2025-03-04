@@ -49,6 +49,7 @@ export default function Home() {
         <a className={button} href="/archive/2024">
           LAVA 2024 (ACCV 2024)
         </a>
+          
       </div>
       <Section title={""} body={<Workshop />} className={"mt-8"} id="workshop" />
       <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />

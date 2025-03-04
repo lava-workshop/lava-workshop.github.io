@@ -37,14 +37,17 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center   sm:px-24 px-4 ">
       <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center">
+        <a className={button} href="/">
+          Home
+        </a>
         <a className={button} href="/workshop">
-          Workshop
+          LAVA 2025 (ACMMM 2025 Workshop)
         </a>
         <a className={button} href="/grandchallenge">
-          Grand Challenge
+          LAVA Challenge (ACMMM 2025 Grand Challenge)
         </a>
         <a className={button} href="/archive/2024">
-          ACCV 2024 (Done)
+          LAVA 2024 (ACCV 2024, Done)
         </a>
       </div>
       <Section title={"Welcome!"} body={<Workshop />} id="workshop" />

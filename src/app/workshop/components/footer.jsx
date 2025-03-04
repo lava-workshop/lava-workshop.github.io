@@ -16,7 +16,7 @@ const Footer = () => {
                     <Image src="/BeyondAI.jpg" alt="Beyond AI" width={150} height={50} className="sm:w-[7em] w-[4em]"/>
                 </div>
                 <div className="flex flex-col justify-center">
-                    <Image src="/TASUKI.png" alt="TASUKI" width={150} height={50} className="sm:w-[7em] w-[4em]"/>
+                    <Image src="/uiuc_logo.png" alt="UIUC" width={150} height={50} className="sm:w-[7em] w-[4em]"/>
                 </div>
                 {/* <div className="flex flex-col justify-center">
                     <Image src="/softbank.png" alt="Soft Bank" width={200} height={200} className="sm:w-[13em] w-[6em]" />

@@ -47,9 +47,7 @@ export default function Home() {
           ACCV 2024 (Done)
         </a>
       </div>
-      <Section title={"Workshop Sponsors"}
-        body={
-          <Section title={""} body={<Workshop />} className={"mt-8"} id="workshop" />
+      <Section title={""} body={Workshop />} id="callforpapers" />
       <div className="fixed bottom-6 right-6">
         <button id="backToTop" className="bg-[#01305f] hover:bg-[#234880] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>
           <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,6 +56,7 @@ export default function Home() {
 
         </button>
       </div>
+    </main>
     </main>
   );
 }

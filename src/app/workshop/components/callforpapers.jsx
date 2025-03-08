@@ -21,6 +21,7 @@ const CallForPapers = () => {
                 <li>LVLMs and other modalities</li>
                 <li>LVLMs for low resources</li>
             </ul>
+            <span className="font-bold text-[1.3em]">Link for submission (coming soon)</span>.
 {/*             <span className="font-bold text-[1.3em]"><a href='https://cmt3.research.microsoft.com/LAVA2024' className="underline text-[1.1em] text-[#232ba1]">Submit your paper here</a></span>. */}
                 
 

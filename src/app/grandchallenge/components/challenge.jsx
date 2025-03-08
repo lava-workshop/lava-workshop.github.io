@@ -18,6 +18,13 @@ const Challenge = () => {
                 They are required to develop a model that can answer questions related to the input data.
                 This year, we invite participants to solve the problem of Japanese government-related and business documents.
                 Each document will be in pdf format which is associated with 10-choice question.
+
+                
+                <br/>
+                <span className="font-bold text-[1.3em]"><a href='https://forms.gle/WJVWbfdaksxn4BQq5' className="underline text-[1.4em] text-[#232ba1]">Register your team here!</a></span>.
+                <br />
+                
+                
                 {/* Below, we provide a few samples. 
 
                 <br />
@@ -34,12 +41,7 @@ const Challenge = () => {
                     <li><span className="font-bold">Private dataset:</span> We collect data by ourselves and annotate in the same manner with the public data.</li>
                 </ul>
                 <p className="font-bold mt-5">We note that all data are for research purposes only under CC-BY-NC (商用利用不可) license. We appreciate your understanding and cooporation.</p>
-{/*                 <div className="mt-2">The data contain English and Japanese texts. <span className="font-bold"><a href=' https://drive.google.com/drive/folders/1YBH2FyYfRpppI-hhJTSVgqNt_uBQjY6E' className="underline text-[1.4em] text-[#232ba1]">You can download the data here</a></span>. Please carefully read the <a href='https://docs.google.com/document/d/1VvKlzi6KfpaYuN_YuhQGzphRuXyJlOM_/edit?usp=sharing&ouid=103136956899952170060&rtpof=true&sd=true' className="underline text-[1.4em] text-[#232ba1]">Terms and Conditions</a> for further information about the license, data, and submission instructions.</div>
-                <div className="mt-2">Participants are required to submit the results to our system to get the scores.</div>
-                <br />
-                <br />.
-                <span className="font-bold"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform' className="underline text-[1.4em] text-[#232ba1]">Register your team information here</a></span>. We will send the link to download the dataset to registered participants.
-                <br /> */}
+{/*               
                 <br />
 
                 <span className="font-bold">Metric:</span>

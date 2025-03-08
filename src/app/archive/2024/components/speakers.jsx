@@ -14,6 +14,9 @@ const Speakers = () => {
                         <b>LLM-Based Reasoning: Opportunities and Pitfalls</b>
                         <br />
                         The question of whether Large Language Models (LLMs) can reason is both complex and crucial. While LLMs have demonstrated capabilities in informal reasoning, their potential extends far beyond, particularly in advancing explainable AI and the development of intelligent agents. In this talk, I will explore the reasoning abilities of LLMs and discuss the ongoing efforts at IBM to enhance these capabilities in IBM granite models by using knowledge and tool-assisted synthetic data generation.
+                        <iframe width="420" height="315"
+                        src="https://www.youtube.com/watch?v=sPEwVTOtAZ0">
+                        </iframe>
                     </p>
                 </div>
 
@@ -27,6 +30,9 @@ const Speakers = () => {
                         <b>Adversarial Attacks and Defenses on Vision-Language Models</b>
                         <br />
                         Robustness research aims to build machine learning models that are resilient to unpredictable accidents (black swans and tail risk robustness) and carefully crafted and deceptive threats (adversarial robustness). In this talk, I shall focus on the adversarial robustness of vision-language models (VLMs). Specifically, I shall cover recent attacks and defenses on two kinds of VLMs: vision-language pre-trained models like CLIP and vision-conditioned LLMs like LLaVA. The talk will focus on discussing whether existing attacks are practical and what the challenges and opportunities of adversarial machine learning research are in the space of vision-language models.
+                        <iframe width="420" height="315"
+                        src="https://www.youtube.com/watch?v=YMif9UhjGtk">
+                        </iframe>
                     </p>
                 </div>
             </div>

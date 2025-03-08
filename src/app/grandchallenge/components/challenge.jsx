@@ -83,6 +83,8 @@ const Challenge = () => {
 
                 <br /> */}
 
+                <br />
+
                 <span className="font-bold">Prizes and Travel Grants:</span>
                 Travel grants and Prizes will be announced later.
 

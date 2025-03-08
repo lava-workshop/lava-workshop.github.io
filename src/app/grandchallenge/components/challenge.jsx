@@ -12,7 +12,13 @@ const Challenge = () => {
             </p> */}
 
             <div>
-                <span className="font-bold">Challenge Overview:</span> The primary goal of this challenge is to advance the capability of Large Vision-Language Models to accurately interpret and understand complex visual data such as Data Flow Diagrams (DFDs), Class Diagrams, Gantt Charts, and Building Design Drawings. We invite AI researchers, data scientists, and practitioners with interest and experience in natural language processing, computer vision, and multimodal learning to join this workshop challenge. Participants can register as individuals or teams. They are required to develop a model that can answer questions related to the input data. Below, we provide a few samples.
+                <span className="font-bold">Challenge Overview:</span> The primary goal of this challenge is to advance the capability of Large Vision-Language Models to accurately interpret and understand complex visual data such as Data Flow Diagrams (DFDs), Class Diagrams, Gantt Charts, and Building Design Drawings. 
+                We invite AI researchers, data scientists, and practitioners with interest and experience in natural language processing, computer vision, and multimodal learning to join this grand challenge. 
+                Participants can register as individuals or teams. 
+                They are required to develop a model that can answer questions related to the input data.
+                This year, we invite participants to solve the problem of Japanese government-related and business documents.
+                Each document will be in pdf format which is associated with 10-choice question.
+                {/* Below, we provide a few samples. 
 
                 <br />
                 <div className="flex sm:flex-row flex-col">
@@ -20,30 +26,31 @@ const Challenge = () => {
                     <Image src="/sample2.png" width={500} height={250} />
                     
                 </div>
-                <Image src="/sample3.png" width={500} height={250} />
+                <Image src="/sample3.png" width={500} height={250} /> */}
 
                 <p className="font-bold mt-5">Datasets:</p>
                 <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
-                    <li><span className="font-bold">Public dataset:</span> We will release our dataset collected from the internet. It contains about 3,000 samples. </li>
-                    <li><span className="font-bold">Private dataset:</span> The TASUKI team (SoftBank) provides this dataset. It contains about 1,100 samples.</li>
+                    <li><span className="font-bold">Public dataset:</span> We re-annontate publicly available JDocQA dataset,resulting in about 300 samples. The annotation format is provided later.</li>
+                    <li><span className="font-bold">Private dataset:</span> We collect data by ourselves and annotate in the same manner with the public data.</li>
                 </ul>
+                <p className="font-bold mt-5">We note that all data are for research purposes only under CC-BY-NC (商用利用不可) license. We appreciate your understanding and cooporation.</p>
 {/*                 <div className="mt-2">The data contain English and Japanese texts. <span className="font-bold"><a href=' https://drive.google.com/drive/folders/1YBH2FyYfRpppI-hhJTSVgqNt_uBQjY6E' className="underline text-[1.4em] text-[#232ba1]">You can download the data here</a></span>. Please carefully read the <a href='https://docs.google.com/document/d/1VvKlzi6KfpaYuN_YuhQGzphRuXyJlOM_/edit?usp=sharing&ouid=103136956899952170060&rtpof=true&sd=true' className="underline text-[1.4em] text-[#232ba1]">Terms and Conditions</a> for further information about the license, data, and submission instructions.</div>
                 <div className="mt-2">Participants are required to submit the results to our system to get the scores.</div>
                 <br />
-                <br />
+                <br />.
                 <span className="font-bold"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform' className="underline text-[1.4em] text-[#232ba1]">Register your team information here</a></span>. We will send the link to download the dataset to registered participants.
                 <br /> */}
                 <br />
 
                 <span className="font-bold">Metric:</span>
                 <br />
-                We will evaluate using MMMU.
+                We will evaluate using accuracy.
 
                 <br />
 
                 <span className="font-bold">Final score = 0.3 * Public dataset + 0.7 * Private dataset </span>
 
-                <br />
+                {/*<br />
                 <span className="font-bold">Results</span>
                 <br/>
 
@@ -74,10 +81,10 @@ const Challenge = () => {
                   </tr>
                 </table>
 
-                <br /> 
+                <br /> */}
 
                 <span className="font-bold">Prizes and Travel Grants:</span>
-                Travel grants are available for winning teams (one per team). Prizes will be announced later.
+                Travel grants and Prizes will be announced later.
 
 
                 <br />

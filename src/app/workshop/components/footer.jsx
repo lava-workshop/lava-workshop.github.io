@@ -4,6 +4,9 @@ const Footer = () => {
         <footer className="h-[10em] ">
             <div className="flex flex-row justify-between w-[70em] px-2">
                 <div className="flex flex-col justify-center">
+                    <Image src="/SBIntuitions.png" alt="SB Intuitions" width={110} height={200} className="sm:w-[6em] w-[4em]" />
+                </div>
+                <div className="flex flex-col justify-center">
                     <Image src="/tokyo.png" alt="UTokyo" width={110} height={200} className="sm:w-[6em] w-[4em]" />
                 </div>
                 <div className="flex flex-col justify-center ">

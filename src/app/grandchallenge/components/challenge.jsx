@@ -23,6 +23,10 @@ const Challenge = () => {
                 <br/>
                 <span className="font-bold text-[1.3em]"><a href='https://forms.gle/WJVWbfdaksxn4BQq5' className="underline text-[1.4em] text-[#232ba1]">Register your team here!</a></span>.
                 <br />
+
+{/*                 <br/>
+                <span className="font-bold text-[1.3em]"><a href='https://forms.gle/WJVWbfdaksxn4BQq5' className="underline text-[1.4em] text-[#232ba1]">Join the challenge through Kaggle page!</a></span>.
+                <br /> */}
                 
                 
                 {/* Below, we provide a few samples. 
@@ -35,10 +39,11 @@ const Challenge = () => {
                 </div>
                 <Image src="/sample3.png" width={500} height={250} /> */}
 
-                <p className="font-bold mt-5">Datasets:</p>
+                <p className="font-bold mt-5">Datasets and Submission guideline:</p>
                 <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
-                    <li><span className="font-bold">Public dataset:</span> We re-annontate publicly available JDocQA dataset,resulting in about 300 samples. The annotation format is provided later.</li>
-                    <li><span className="font-bold">Private dataset:</span> We collect data by ourselves and annotate in the same manner with the public data.</li>
+                    <li> Please visit our Kaggle page for detailed information on the dataset and submission format.</li>
+                    <li> To be eligible for the final evaluation, participants must submit a report along with their solution by the deadline below. Submission of a paper is optional and intended for proceeding publication. Guidelines for report and paper submissions will be provided at a later date.</li>
+                    <li> We kindly request that the winning teams attend the event in person, as required by the ACMMM organizers.</li>
                 </ul>
                 <p className="font-bold mt-5">We note that all data are for research purposes only under CC-BY-NC (商用利用不可) license. We appreciate your understanding and cooporation.</p>
 {/*               

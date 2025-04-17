@@ -3,7 +3,8 @@ const ImportantDates = () => {
         
         <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
             <li>Registration opened: <span className="font-bold">2025/3/15</span></li>
-            <li>Public data released:  <span className="font-bold">2025/4/15</span></li>
+            <li>Public data released:  <span style={{textDecoration: 'line-through'}}>2025/4/15</span>
+                    <span className="font-bold"> 2025/4/17</span>
             <li>Registration closed: <span className="font-bold">2025/5/31</span></li>
             <li>Private data released: <span className="font-bold">2025/6/23 (to be updated)</span></li>
             <li>Results, Report, Paper submission deadline: <span className="font-bold">2025/6/30</span></li>

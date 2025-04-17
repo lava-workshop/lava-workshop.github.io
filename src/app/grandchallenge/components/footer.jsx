@@ -9,9 +9,9 @@ const Footer = () => {
                 <div className="flex flex-col justify-center">
                     <Image src="/tokyo.png" alt="UTokyo" width={110} height={200} className="sm:w-[6em] w-[4em]" />
                 </div>
-                <div className="flex flex-col justify-center ">
+{/*                 <div className="flex flex-col justify-center ">
                     <Image src="/NII.jpg" alt="NII" width={100} height={50} className="sm:h-[5em] h-[5em]" />
-                </div>
+                </div> */}
                 <div className="flex flex-col justify-center">
                     <Image src="/BeyondAI.jpg" alt="Beyond AI" width={150} height={50} className="sm:w-[7em] w-[4em]"/>
                 </div>

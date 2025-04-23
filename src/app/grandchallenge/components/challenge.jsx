@@ -92,8 +92,8 @@ const Challenge = () => {
 
                 <br />
 
-                <span className="font-bold">Prizes and Travel Grants:</span>
-                Travel grants and Prizes will be announced later.
+                <span className="font-bold">Prizes:</span>
+                Top 3 winner gets $1,000 USD for ACMMM 2025 registration fee.
 
 
                 <br />

@@ -54,10 +54,10 @@ export default function Home() {
       <Section title={"Call for Challenge Participants"} body={<Challenge />} id="challenge" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
-      <Section title={"Workshop Sponsors"}
+      <Section title={"Challenge Sponsors"}
         body={
           <div className="flex flex-row w-full justify-center items-center ">
-            <div className="flex flex-col justify-center ">
+            <div className="grid sm:grid-cols-4 grid-cols-2 mt-4 gap-y-6">
               <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
               <Image src="/TASUKI.png" alt="TASUKI Team" width={200} height={200} className="sm:w-[18m] w-[12em]" />
             </div>

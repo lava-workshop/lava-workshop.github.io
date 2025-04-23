@@ -59,6 +59,7 @@ export default function Home() {
           <div className="flex flex-row w-full justify-center items-center ">
             <div className="flex flex-col justify-center ">
               <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
+              <Image src="/TASUKI.png" alt="TASUKI Team" width={200} height={200} className="sm:w-[18m] w-[12em]" />
             </div>
           </div>
 

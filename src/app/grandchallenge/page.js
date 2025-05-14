@@ -57,11 +57,11 @@ export default function Home() {
       <Section title={"Challenge Sponsors"}
         body={
           <div className="flex flex-row w-full justify-center items-center ">
-            <div className="grid sm:grid-cols-4 grid-cols-2 mt-4 gap-y-6">
-              <a href="https://beyondai.jp/">
+            <div className="grid grid-cols-2">
+              <a href="https://beyondai.jp/" target="_blank">
                 <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
               </a>
-              <a href="https://www.softbank.jp/biz/services/ai/tasuki-annotation/">
+              <a href="https://www.softbank.jp/biz/services/ai/tasuki-annotation/" target="_blank">
                 <Image src="/TASUKI.png" alt="TASUKI Team" width={200} height={200} className="sm:w-[18m] w-[12em]" />
               </a>
             </div>

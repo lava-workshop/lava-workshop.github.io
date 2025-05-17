@@ -97,7 +97,7 @@ const Challenge = () => {
                 <br />
 
                 <span className="font-bold">Prizes:</span>
-                Top 3 winner gets $1,000 USD for ACMMM 2025 registration fee.
+                Top 3 winner gets up to $1,000 USD for ACMMM 2025 registration fee.
 
 
                 <br />

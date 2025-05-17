@@ -20,7 +20,7 @@ const Challenge = () => {
                 Each document will be in pdf format which is associated with 10-choice question.
                 We show an example below.
 
-                <Image src="/sample.png" width={500} height={250} />
+                <Image src="/sample.jpg" width={500} height={250} />
 
 
                 

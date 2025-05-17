@@ -18,6 +18,10 @@ const Challenge = () => {
                 They are required to develop a model that can answer questions related to the input data.
                 This year, we invite participants to solve the problem of Japanese government-related and business documents.
                 Each document will be in pdf format which is associated with 10-choice question.
+                We show an example below.
+
+                <Image src="/sample.png" width={500} height={250} />
+
 
                 
                 <br/>

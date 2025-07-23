@@ -13,6 +13,10 @@ const Workshop = () => {
             <p>
                 See you soon in Dublin, Ireland.
             </p>
+
+            <p>
+                <span className="underline text-[1.4em] text-[#232ba1]">The LAVA Challenge 2026 will be held in conjunction with ACMMM 2026. Additional details will be announced at a later date. We look forward to your participation!</span>.
+            </p>
         </div>
     )
 }

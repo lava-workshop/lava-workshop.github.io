@@ -24,7 +24,7 @@ const Workshop = () => {
             <div className="grid grid-cols-2">
                 <Image src="/qrcode.png" width={200} height={200} className="sm:w-[18m] w-[12em]" />
             </div>
-
+            </div>
             
         </div>
     )

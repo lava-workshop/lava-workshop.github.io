@@ -20,11 +20,7 @@ const Workshop = () => {
             <br/>
                 <span className="font-bold text-[1.3em]"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform' className="underline text-[1.4em] text-[#232ba1]">Register your team for LAVA Challenge 2026 here!</a></span>.
             <br />
-            <div className="flex flex-row w-full justify-center items-center ">
-            <div className="grid grid-cols-2">
-                <Image src="/qrcode.png" width={200} height={200} className="sm:w-[18m] w-[12em]" />
-            </div>
-            </div>
+            <Image src="/qrcode.png" alt="" width={200} height={200} className="sm:w-[18m] w-[12em]" />
             
         </div>
     )

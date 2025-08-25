@@ -24,13 +24,13 @@ const Challenge = () => {
 
 
                 
-                <br/>
+{/*                 <br/>
                 <span className="font-bold text-[1.3em]"><a href='https://forms.gle/WJVWbfdaksxn4BQq5' className="underline text-[1.4em] text-[#232ba1]">Register your team here!</a></span>.
                 <br />
 
                 <br/>
                 <span className="font-bold text-[1.3em]"><a href='https://www.kaggle.com/t/f90e2dc0f42b435ca91fc2d91f672ad1' className="underline text-[1.4em] text-[#232ba1]">Join the challenge through Kaggle page!</a></span>.
-                <br />
+                <br /> */}
                 
                 
                 {/* Below, we provide a few samples. 

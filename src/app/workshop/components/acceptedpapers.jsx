@@ -12,7 +12,7 @@ const AcceptedPapers = () => {
             <ol start="5" className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
                 <li>Phuoc-Nguyen Bui, Khanh-Binh Nguyen, Hyunseung Choo: Accelerating Conditional Prompt Learning via Masked Image Modeling for Vision-Language Models</li>
             </ol> 
-            <span className="font-bold text-[1.3em]">Fast Track</span>
+            <span className="font-bold text-[1.3em]">Non-archieved Paper</span>
             <ol start="5" className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
                 <li>Song-Li Wu: LAMDA: Leveraging Multi-Scale and Dynamic Alignment for Robust Referring Video Object Segmentation</li>
                 <li>Jun, Kexin Lv, An Guo: Hierarchical Temporal Views for Policy Optimization in Multimodal Video Reasoning</li>

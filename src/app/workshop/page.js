@@ -50,6 +50,7 @@ export default function Home() {
           LAVA 2024 (ACCV 2024)
         </a>
       </div>
+      <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
       <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />

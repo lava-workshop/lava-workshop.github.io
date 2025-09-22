@@ -51,6 +51,7 @@ export default function Home() {
         </a>
           
       </div>
+      <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
       <Section title={"Call for Challenge Participants"} body={<Challenge />} id="challenge" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />

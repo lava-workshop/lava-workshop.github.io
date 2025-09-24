@@ -6,7 +6,7 @@ const AcceptedPapers = () => {
                 <li>(1st Prize, SYSUpporter team) Longfeng Chen, Zheng Xiao, Juyuan Wang, Zeyu Huang, Yawen Zeng, Jin Xu: HEAR: A Holistic Extraction and Agentic Reasoning Framework for Document Understanding</li>
                 <li>(2nd Prize, Woof team) Haoxuan Li, Wei Song, Aofan Liu, Peiwu Qin: AdaDocVQA: Adaptive Framework for Long Document Visual Question Answering in Low-Resource Settings</li>
                 <li>(3rd Prize, nsbsk team) Ao Zhou, Zebo Gu, Tenghao S, Jiawen , Mingsheng , Zifeng , Yafeng , Zhiwei , Qing Gu: Hierarchical Vision-Language Reasoning for Multimodal Multiple-Choice Question Answering</li>
-                <li>(4th Prize, char team) Mizuki Yamano, Keito , Hisashi Miyamori: Two-Stage Approach Using a Pretrained Language Model for Question Answering on Japanese Document Images</li>
+                <li>(4th Prize, char team) Mizuki Yamano, Keito Fukuoka, Hisashi Miyamori: Two-Stage Approach Using a Pretrained Language Model for Question Answering on Japanese Document Images</li>
             </ul>              
 
         </div>

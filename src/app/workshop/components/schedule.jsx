@@ -18,7 +18,7 @@ const Schedule = () => {
             <li><span className="font-bold">--:--</span> - SYSUpporter team: HEAR: A Holistic Extraction and Agentic Reasoning Framework for Document Understanding</li>
             <li><span className="font-bold">--:--</span> - Woof team: AdaDocVQA: Adaptive Framework for Long Document Visual Question Answering in Low-Resource Settings</li>
             <li><span className="font-bold">--:--</span> - nsbsk team: Hierarchical Vision-Language Reasoning for Multimodal Multiple-Choice Question Answering</li>
-            <li><span className="font-bold">--:--</span> - char team: wo-Stage Approach Using a Pretrained Language Model for Question Answering on Japanese Document Images</li>
+            <li><span className="font-bold">--:--</span> - char team: Two-Stage Approach Using a Pretrained Language Model for Question Answering on Japanese Document Images</li>
         </ul>
     </div>
 }

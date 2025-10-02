@@ -8,9 +8,9 @@ const Organizers = ()=>{
 {/*             <PersonAvatar name="Akihiro Sugimoto" image="/sugimoto.jpg" affiliation={"National Institute of Informatics, Japan"} /> */}
             <PersonAvatar name="Hideki Nakayama" image="/nakayama.jpg" affiliation={"University of Tokyo, Japan"} />
             <PersonAvatar name="Khan Md Anwarus Salam" image="/khan_salam.jpg" affiliation={"SoftBank, Japan"} />
-            <PersonAvatar name="Jiaxuan Li" image="/avatar.jpg" affiliation={"SB Intuitions, Japan"} />
-            <PersonAvatar name="Junwen Mo" image="/avatar.jpg" affiliation={"University of Tokyo, Japan"} />
             <PersonAvatar name="Daichi Sato" image="/Daichi.jpg" affiliation={"University of Tokyo, Japan"} />
+            <PersonAvatar name="Takara Taniguchi" image="/taniguchi.jpeg" affiliation={"University of Tokyo, Japan"} />
+            <PersonAvatar name="Kaito Baba" image="/baba.jpg" affiliation={"University of Tokyo, Japan"} />
         </div>
 
         <br/>

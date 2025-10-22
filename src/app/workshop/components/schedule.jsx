@@ -4,7 +4,7 @@ const Schedule = () => {
         <br/>
         <span className="font-bold text-[1.3em]">Morning Session</span>
         <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
-            <li> <span className="font-bold">09:00</span> - Opening Remark</li>
+            <li><span className="font-bold">09:00</span> - Opening Remark</li>
             <li><span className="font-bold">09:05</span> - Keynote Talk: Dr. Seitaro Shinagawa (SB Intuitions, online) Sarashina2-Vision: Toward Vision -- Language Models for Understanding Japanese Figures and Conceptual/Explanatory Diagrams</li>
             <li><span className="font-bold">10:00</span> - Janak Kapuriya (online): Enhancing Scientific Visual Question Answering via Vision-Caption aware Supervised Fine-Tuning</li>
             <li><span className="font-bold">10:15</span> - Jiadong Yan (pre-recorded video): Few-shot Anomaly Detection based on Long Short Text Interactive Contrastive Learning</li>

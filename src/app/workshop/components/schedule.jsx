@@ -1,6 +1,7 @@
 const Schedule = () => {
     return <div className="text-justify">
         LOCATION: Distillers, Hyatt
+        <br/>
         <span className="font-bold text-[1.3em]">Morning Session</span>
         <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
             <li> <span className="font-bold">09:00</span> - Opening Remark</li>

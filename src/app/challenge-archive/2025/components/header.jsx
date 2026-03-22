@@ -8,13 +8,13 @@ const Header = ()=>{
                      <span className="text-white tracking-[0.35em] font-semibold">LAVA </span>
                 </div>
                 <div className="text-[0.8em] text-center mt-2">
-                    ACM MM 2026 Grand Challenge on 
+                    ACM MM 2025 Grand Challenge on 
                 </div>
                 <div className="text-[0.8em] text-center ">
                     <span className={highlight}>La</span>rge <span className={highlight}>V</span>ision – Language Model Learning and <span className={highlight}>A</span>pplications 
                 </div>
                 <div className="text-[0.55em]  text-white text-center mt-5">
-                    LAVA Challenge 2026 — Rio de Janeiro, Brazil &nbsp;·&nbsp; 10–14 November 2026
+                    LAVA Challenge 2025 — Dublin, Ireland 27 - 31.10.2025
                 </div>
             </div>
            

@@ -1,12 +1,17 @@
 "use client";
 import Image from "next/image";
 import Section from "./components/section";
+import Introduction from "./components/introduction";
+import Schedule from "./components/schedule";
+import Speakers from "./components/speakers";
 import Organizers from "./components/organizers";
 import { useEffect } from "react";
 import Workshop from "./components/workshop";
-import Background from "./components/background";
-import TaskDetails from "./components/taskdetails";
+import CallForPapers from "./components/callforpapers";
+import Challenge from "./components/challenge";
 import ImportantDates from "./components/importantdates";
+import TechnicalSupporters from "./components/technical-supporters";
+import AcceptedPapers from "./components/acceptedpapers";
 export default function Home() {
   const topClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -42,9 +47,9 @@ export default function Home() {
           Challenge Archive
         </a>
       </div>
-      <Section title={"Overview"} body={<Workshop />} id="overview" />
-      <Section title={"Background"} body={<Background />} id="background" />
-      <Section title={"Task Details"} body={<TaskDetails />} id="taskdetails" />
+      <Section title={"Workshop Schedule"} body={<Schedule />} id="schedule" />
+      <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
+      <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
       <div className="fixed bottom-6 right-6">

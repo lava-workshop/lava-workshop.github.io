@@ -1,12 +1,17 @@
 "use client";
 import Image from "next/image";
 import Section from "./components/section";
+import Introduction from "./components/introduction";
+import Schedule from "./components/schedule";
+import Speakers from "./components/speakers";
 import Organizers from "./components/organizers";
 import { useEffect } from "react";
 import Workshop from "./components/workshop";
-import Background from "./components/background";
-import TaskDetails from "./components/taskdetails";
+import CallForPapers from "./components/callforpapers";
+import Challenge from "./components/challenge";
 import ImportantDates from "./components/importantdates";
+import TechnicalSupporters from "./components/technical-supporters";
+import AcceptedPapers from "./components/acceptedpapers";
 export default function Home() {
   const topClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -42,11 +47,25 @@ export default function Home() {
           Challenge Archive
         </a>
       </div>
-      <Section title={"Overview"} body={<Workshop />} id="overview" />
-      <Section title={"Background"} body={<Background />} id="background" />
-      <Section title={"Task Details"} body={<TaskDetails />} id="taskdetails" />
+      <Section title={""} body={<Workshop />} className={"mt-8"} id="workshop" />
+      <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
+      <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
+      <Section title={"LAVA Challenge"} body={<Challenge />} id="challenge" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
+      <Section title={"Workshop Schedule"} body={<Schedule />} id="schedule" />
+      <Section title={"Speakers"} body={<Speakers />} id="speakers" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
+      <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" />
+      <Section title={"Workshop Sponsors"}
+        body={
+          <div className="flex flex-row w-full justify-center items-center ">
+            <div className="flex flex-col justify-center ">
+              <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
+            </div>
+          </div>
+
+        }
+        id="sponsors" />
       <div className="fixed bottom-6 right-6">
         <button id="backToTop" className="bg-[#01305f] hover:bg-[#234880] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>
           <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">

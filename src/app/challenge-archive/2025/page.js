@@ -1,12 +1,17 @@
 "use client";
 import Image from "next/image";
 import Section from "./components/section";
+import Introduction from "./components/introduction";
+import Schedule from "./components/schedule";
+import Speakers from "./components/speakers";
 import Organizers from "./components/organizers";
 import { useEffect } from "react";
 import Workshop from "./components/workshop";
-import Background from "./components/background";
-import TaskDetails from "./components/taskdetails";
+import CallForPapers from "./components/callforpapers";
+import Challenge from "./components/challenge";
 import ImportantDates from "./components/importantdates";
+import TechnicalSupporters from "./components/technical-supporters";
+import AcceptedPapers from "./components/acceptedpapers";
 export default function Home() {
   const topClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -42,11 +47,25 @@ export default function Home() {
           Challenge Archive
         </a>
       </div>
-      <Section title={"Overview"} body={<Workshop />} id="overview" />
-      <Section title={"Background"} body={<Background />} id="background" />
-      <Section title={"Task Details"} body={<TaskDetails />} id="taskdetails" />
+      <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
+      <Section title={"Call for Challenge Participants"} body={<Challenge />} id="challenge" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
+      <Section title={"Challenge Sponsors"}
+        body={
+          <div className="flex flex-row w-full justify-center items-center ">
+            <div className="grid grid-cols-2">
+              <a href="https://beyondai.jp/" target="_blank">
+                <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
+              </a>
+              <a href="https://www.softbank.jp/biz/services/ai/tasuki-annotation/" target="_blank">
+                <Image src="/TASUKI.png" alt="TASUKI Team" width={200} height={200} className="sm:w-[18m] w-[12em]" />
+              </a>
+            </div>
+          </div>
+
+        }
+        id="sponsors" />
       <div className="fixed bottom-6 right-6">
         <button id="backToTop" className="bg-[#01305f] hover:bg-[#234880] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>
           <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">

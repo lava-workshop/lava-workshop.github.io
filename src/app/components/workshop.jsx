@@ -2,7 +2,7 @@ const Workshop = () => {
     return (
         <div className="text-justify">
             <p className="mb-4">
-                We are pleased to announce the <span className="font-semibold">3rd LAVA Grand Challenge</span>, to be held in conjunction with <span className="font-semibold">ACM Multimedia 2026</span>. Building on the success of our previous challenges in 2024 and 2025, this year's edition introduces two major extensions:
+                We are pleased to announce the <span className="font-semibold">3rd LAVA Grand Challenge</span>, to be held in conjunction with <span className="font-semibold">ACM Multimedia 2026</span>. Building on the success of our previous challenges in 2024 and 2025, this year&apos;s edition introduces two major extensions:
             </p>
             <ul className="list-disc list-inside space-y-2 mb-4 ml-4">
                 <li>

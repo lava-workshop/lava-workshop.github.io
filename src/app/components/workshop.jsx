@@ -16,11 +16,10 @@ const Workshop = () => {
                 The challenge targets the document understanding capabilities of Vision-Language Models (VLMs) on multilingual PDF documents and invites researchers, engineers, and practitioners worldwide to participate.
             </p>
             <p className="mb-6">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform" className="underline text-[1.1em] text-[#232ba1] font-semibold" target="_blank" rel="noopener noreferrer">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeROO-9uTz0r88r6oERfoddhW-IwOF-xRGD9LmFN5P8DRSbqg/viewform?pli=1" className="underline text-[1.1em] text-[#232ba1] font-semibold" target="_blank" rel="noopener noreferrer">
                     Register your team for LAVA Challenge 2026 here!
                 </a>
             </p>
-            <center><img src="/qrcode.png" alt="qrcode" width={200} height={200} /></center>
         </div>
     )
 }

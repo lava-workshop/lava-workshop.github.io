@@ -5,8 +5,11 @@ export const metadata = {
 };
 
 export default function ChallengeArchive() {
-  const button =
-    "hover:cursor-pointer text-[#01305f] hover:text-white border border-[#01305f] hover:bg-[#01305f] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-4 mb-2";
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/workshop-archive", label: "Workshop Archive" },
+    { href: "/challenge-archive", label: "Challenge Archive" },
+  ];
 
   const events = [
     {
@@ -18,35 +21,43 @@ export default function ChallengeArchive() {
   ];
 
   return (
-    <main className="flex min-h-screen flex-col items-center sm:px-24 px-4">
-      <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center">
-        <a className={button} href="/">
-          Home
-        </a>
-        <a className={button} href="/workshop-archive">
-          Workshop Archive
-        </a>
-        <a className={button} href="/challenge-archive">
-          Challenge Archive
-        </a>
-      </div>
+    <main className="flex min-h-screen flex-col items-center bg-slate-50">
+      <nav className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div className="max-w-[65em] mx-auto px-4 py-3 flex flex-wrap gap-2 justify-center">
+          {navLinks.map(({ href, label }) => (
+            <a
+              key={href}
+              href={href}
+              className="text-[#01305f] hover:text-white border border-[#01305f] hover:bg-[#01305f] transition-all duration-200 font-medium rounded-lg text-sm px-5 py-2 text-center"
+            >
+              {label}
+            </a>
+          ))}
+        </div>
+      </nav>
 
-      <div className="mt-16 sm:w-[65em] w-full">
-        <h1 className="text-3xl font-bold text-[#01305f] mb-2">Challenge Archive</h1>
-        <p className="text-gray-600 mb-10">
-          Past editions of the LAVA Grand Challenge on Large Vision–Language Model Learning and Applications.
+      <div className="mt-16 sm:w-[65em] w-full px-4">
+        <h1 className="section-title text-3xl font-bold text-[#01305f] mb-2">
+          Challenge Archive
+        </h1>
+        <p className="text-slate-500 mt-4 mb-10">
+          Past editions of the LAVA Grand Challenge on Large Vision–Language Model
+          Learning and Applications.
         </p>
 
         <div className="grid sm:grid-cols-2 grid-cols-1 gap-6">
           {events.map((event) => (
             <Link key={event.year} href={event.href}>
-              <div className="border border-[#01305f] rounded-xl p-6 hover:bg-[#01305f] hover:text-white transition-colors group cursor-pointer">
-                <div className="text-4xl font-bold text-[#01305f] group-hover:text-white mb-2">
+              <div className="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md hover:border-[#01305f]/30 hover:-translate-y-1 transition-all duration-200 cursor-pointer group">
+                <div className="text-5xl font-bold text-[#01305f]/20 group-hover:text-[#01305f]/40 mb-3 transition-colors">
                   {event.year}
                 </div>
-                <div className="text-xl font-semibold mb-1">{event.title}</div>
-                <div className="text-sm text-gray-500 group-hover:text-gray-200">
-                  {event.venue}
+                <div className="text-xl font-semibold text-[#01305f] mb-1">
+                  {event.title}
+                </div>
+                <div className="text-sm text-slate-400">{event.venue}</div>
+                <div className="mt-4 text-sm text-sky-600 font-medium group-hover:underline">
+                  View details →
                 </div>
               </div>
             </Link>

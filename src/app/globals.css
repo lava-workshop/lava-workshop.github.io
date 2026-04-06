@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
- 
-  background: white;
+  background: #f8fafc;
+  color: #1e293b;
 }
 
 @layer utilities {
@@ -14,20 +12,64 @@ body {
     text-wrap: balance;
   }
 }
+
 html {
   scroll-behavior: smooth;
- }
-.header{
-  display: flex;
-  justify-content:center;
-  height: 20em;
-  color: white;
-  background-color: #01305f;
 }
-footer{
+
+.header {
   display: flex;
-  justify-content:center;
-  height: 10em;
+  justify-content: center;
+  align-items: center;
+  min-height: 22em;
   color: white;
-  background-color: #01305f;
+  background: linear-gradient(135deg, #01305f 0%, #0a5a9c 50%, #1a7fd4 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 70% 50%, rgba(255,255,255,0.07) 0%, transparent 70%),
+              radial-gradient(ellipse at 20% 80%, rgba(0,80,160,0.4) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8, #38bdf8);
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10em;
+  color: white;
+  background: linear-gradient(135deg, #01305f 0%, #0a4a80 100%);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  margin-top: 6px;
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  border-radius: 2px;
 }

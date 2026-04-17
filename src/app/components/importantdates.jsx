@@ -4,7 +4,7 @@ const ImportantDates = () => {
     const today = new Date();
 
     const events = [
-        ["Dataset release on Kaggle page", "2026/4/15"],
+        ["Dataset release on Kaggle page", "2026/4/22"],
         ["Challenge closed", "2026/5/31"],
         ["Results, report, docker container submission deadline", "2026/6/7"],
         ["Paper submission deadline", "2026/6/25"],

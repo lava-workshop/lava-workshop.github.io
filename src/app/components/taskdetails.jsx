@@ -24,6 +24,10 @@ const TaskDetails = () => {
                         <span className="text-[#01305f] font-bold mt-0.5">🎟️</span>
                         <span>At least <span className="font-semibold">one main-conference full registration</span> is required per accepted paper.</span>
                     </li>
+                    <li className="flex items-start gap-2">
+                        <span className="text-yellow-600 font-bold mt-0.5">🎁</span>
+                        <span><span className="font-semibold">Tentative prize:</span> The <span className="font-semibold">top 3 winning teams</span> will each receive a <span className="font-semibold">conference fee waiver</span> (one per team).</span>
+                    </li>
                 </ul>
             </div>
         </div>

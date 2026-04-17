@@ -46,12 +46,26 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* Announcement banner */}
+      <div className="w-full bg-red-50 border-b border-red-200">
+        <div className="max-w-[65em] mx-auto px-4 py-3 flex items-start gap-3 text-sm text-red-800">
+          <span className="text-lg leading-tight">📢</span>
+          <p><span className="font-bold">Announcement:</span> Due to an issue with Kaggle, the dataset release has been delayed. The dataset will be available by <span className="font-bold">April 22, 2026</span>. We apologize for the inconvenience.</p>
+        </div>
+      </div>
+
       {/* Page content */}
       <div className="w-full sm:px-24 px-4 flex flex-col items-center mt-10">
         <Section title="Overview" body={<Workshop />} id="overview" />
         <Section title="Background" body={<Background />} id="background" />
         <Section title="Task Details" body={<TaskDetails />} id="taskdetails" />
         <Section title="Important Dates" body={<ImportantDates />} id="importantdates" />
+        <Section title="Presentation Policy" body={
+          <div className="bg-amber-50 border-l-4 border-amber-400 rounded-xl p-5 text-sm text-gray-700 leading-relaxed">
+            <p className="font-semibold text-amber-800 mb-2">⚠️ On-site Attendance Required</p>
+            <p>ACM Multimedia 2026 is an on-site event only. This means that all papers and contributions must be presented by a physical person on-site; remote presentations will not be hosted or allowed. Papers and contributions not presented on-site will be considered a no-show and removed from the proceedings of the conference. More details will be provided to handle unfortunate situations in which none of the authors would be able to attend the conference physically.</p>
+          </div>
+        } id="policy" />
         <Section title="Organizers" body={<Organizers />} id="organizers" />
       </div>
 

@@ -6,6 +6,8 @@ import Workshop from "./components/workshop";
 import Background from "./components/background";
 import TaskDetails from "./components/taskdetails";
 import ImportantDates from "./components/importantdates";
+import Evaluation from "./components/evaluation";
+import Rules from "./components/rules";
 
 export default function Home() {
   const topClick = () => {
@@ -47,18 +49,28 @@ export default function Home() {
       </nav>
 
       {/* Announcement banner */}
-      <div className="w-full bg-red-50 border-b border-red-200">
-        <div className="max-w-[65em] mx-auto px-4 py-3 flex items-start gap-3 text-sm text-red-800">
-          <span className="text-lg leading-tight">📢</span>
-          <p><span className="font-bold">Announcement:</span> Due to an issue with Kaggle, the dataset release has been delayed. The dataset will be available by <span className="font-bold">April 22, 2026</span>. We apologize for the inconvenience.</p>
+      <div className="w-full bg-gradient-to-r from-green-600 to-emerald-500 shadow-md">
+        <div className="max-w-[65em] mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-4">
+            <span className="text-4xl">🎉</span>
+            <div>
+              <p className="text-white font-bold text-lg leading-tight">The competition is now live!</p>
+              <p className="text-green-100 text-sm mt-0.5">The LAVA Challenge 2026 Kaggle page is officially open. Join now and compete!</p>
+            </div>
+          </div>
+          <a href="https://www.kaggle.com/competitions/lava-challenge-2026" target="_blank" rel="noopener noreferrer"
+            className="shrink-0 bg-white text-green-700 hover:bg-green-50 font-bold text-sm px-6 py-2.5 rounded-full shadow transition-all duration-200 hover:scale-105 whitespace-nowrap">
+            Join on Kaggle →
+          </a>
         </div>
       </div>
 
       {/* Page content */}
       <div className="w-full sm:px-24 px-4 flex flex-col items-center mt-10">
         <Section title="Overview" body={<Workshop />} id="overview" />
-        <Section title="Background" body={<Background />} id="background" />
         <Section title="Task Details" body={<TaskDetails />} id="taskdetails" />
+        <Section title="Evaluation Criterion" body={<Evaluation />} id="evaluation" />
+        <Section title="Rules" body={<Rules />} id="rules" />
         <Section title="Important Dates" body={<ImportantDates />} id="importantdates" />
         <Section title="Presentation Policy" body={
           <div className="bg-amber-50 border-l-4 border-amber-400 rounded-xl p-5 text-sm text-gray-700 leading-relaxed">

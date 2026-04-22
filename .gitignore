@@ -16,6 +16,9 @@
 # production
 /build
 
+# jekyll build output
+/_site
+
 # misc
 .DS_Store
 *.pem
